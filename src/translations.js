@@ -1,19 +1,83 @@
 /* eslint-disable quote-props */
 /* eslint-disable max-len */
+/**
+ * Translation file for this resouce.
+ *
+ * IMPORTANT:
+ * - The "en" (English) section is automatically generated from source files.
+ *   Do NOT modify the "en" section manually.
+ * - Other language sections (e.g., "zh-cn", "zh-tw", "ja", etc.) should be
+ *   manually translated by you.
+ * - When you run the extraction script again, only the "en" section will be
+ *   updated. Your manual translations in other languages will be preserved.
+ *
+ * Structure:
+ * - interface: translations for name/description (used by GUI formatMessage)
+ * - extensions: translations for extension blocks (used by VM formatMessage)
+ * - blocks: translations for Blockly blocks (used by Blockly.Msg)
+ */
 
 export default {
     'interface': {
         'en': {
-            'arduinoRaspberryPiPico2W.description': 'Built-in 2.4 GHz Wi-Fi and Bluetooth for seamless wireless IoT and smart-home integration.'
+            'arduinoRaspberryPiPico2W.description': 'A friendly, easy-to-use microcontroller board that brings your electronics ideas to life.',
+            'arduinoRaspberryPiPico2W.examples.blink.name': 'Blink',
+            'arduinoRaspberryPiPico2W.examples.blink.description': 'Make the on-board LED blink.',
+            'arduinoRaspberryPiPico2W.examples.button.name': 'Button',
+            'arduinoRaspberryPiPico2W.examples.button.description': 'Light up the LED while a push button is pressed.',
+            'arduinoRaspberryPiPico2W.examples.fade.name': 'Fade',
+            'arduinoRaspberryPiPico2W.examples.fade.description': 'Smoothly fade an LED in and out using PWM.',
+            'arduinoRaspberryPiPico2W.examples.knob.name': 'Knob',
+            'arduinoRaspberryPiPico2W.examples.knob.description': 'Control LED brightness with a potentiometer.',
+            'arduinoRaspberryPiPico2W.examples.servoSweep.name': 'Servo Sweep',
+            'arduinoRaspberryPiPico2W.examples.servoSweep.description': 'Sweep a servo back and forth between 0 and 180 degrees.',
+            'arduinoRaspberryPiPico2W.examples.serialMonitor.name': 'Serial Monitor',
+            'arduinoRaspberryPiPico2W.examples.serialMonitor.description': 'Print analog readings to the Serial Monitor every half second.'
         },
         'ru': {
-            'arduinoRaspberryPiPico2W.description': 'Встроенный 2,4 ГГц Wi-Fi и Bluetooth для беспроводного IoT и умного дома.'
+            'arduinoRaspberryPiPico2W.description': 'Удобная и простая в использовании плата микроконтроллера, которая воплощает ваши электронные идеи в жизнь.',
+            'arduinoRaspberryPiPico2W.examples.blink.name': 'Мигание',
+            'arduinoRaspberryPiPico2W.examples.blink.description': 'Заставьте встроенный светодиод мигать.',
+            'arduinoRaspberryPiPico2W.examples.button.name': 'Кнопка',
+            'arduinoRaspberryPiPico2W.examples.button.description': 'Зажигайте светодиод, пока нажата кнопка.',
+            'arduinoRaspberryPiPico2W.examples.fade.name': 'Плавное затухание',
+            'arduinoRaspberryPiPico2W.examples.fade.description': 'Плавное затухание светодиода с помощью ШИМ.',
+            'arduinoRaspberryPiPico2W.examples.knob.name': 'Регулятор',
+            'arduinoRaspberryPiPico2W.examples.knob.description': 'Регулировка яркости светодиода с помощью потенциометра.',
+            'arduinoRaspberryPiPico2W.examples.servoSweep.name': 'Развертка серво',
+            'arduinoRaspberryPiPico2W.examples.servoSweep.description': 'Поворот серво вперед и назад между 0° и 180°.',
+            'arduinoRaspberryPiPico2W.examples.serialMonitor.name': 'Монитор порта',
+            'arduinoRaspberryPiPico2W.examples.serialMonitor.description': 'Печать аналоговых показаний в монитор порта каждые полсекунды.'
         },
         'zh-cn': {
-            'arduinoRaspberryPiPico2W.description': '内置 2.4 GHz Wi-Fi 与蓝牙,无缝接入 IoT 与智能家居。'
+            'arduinoRaspberryPiPico2W.description': '一款易用的微控制器开发板,让你的电子创意轻松落地。',
+            'arduinoRaspberryPiPico2W.examples.blink.name': '闪烁',
+            'arduinoRaspberryPiPico2W.examples.blink.description': '让板载 LED 闪烁。',
+            'arduinoRaspberryPiPico2W.examples.button.name': '按键',
+            'arduinoRaspberryPiPico2W.examples.button.description': '按住按键时点亮 LED。',
+            'arduinoRaspberryPiPico2W.examples.fade.name': '呼吸灯',
+            'arduinoRaspberryPiPico2W.examples.fade.description': '用 PWM 让 LED 缓缓变亮再渐渐变暗。',
+            'arduinoRaspberryPiPico2W.examples.knob.name': '电位器调光',
+            'arduinoRaspberryPiPico2W.examples.knob.description': '用电位器调节 LED 的亮度。',
+            'arduinoRaspberryPiPico2W.examples.servoSweep.name': '舵机来回扫描',
+            'arduinoRaspberryPiPico2W.examples.servoSweep.description': '让舵机在 0° 到 180° 之间来回转动。',
+            'arduinoRaspberryPiPico2W.examples.serialMonitor.name': '串口监视器',
+            'arduinoRaspberryPiPico2W.examples.serialMonitor.description': '每半秒把模拟引脚的数值打印到串口监视器上。'
         },
         'zh-tw': {
-            'arduinoRaspberryPiPico2W.description': '內建 2.4 GHz Wi-Fi 與藍牙,無縫接入 IoT 與智慧家庭。'
+            'arduinoRaspberryPiPico2W.description': '一款易用的微控制器開發板,讓你的電子創意輕鬆落地。',
+            'arduinoRaspberryPiPico2W.examples.blink.name': '閃爍',
+            'arduinoRaspberryPiPico2W.examples.blink.description': '讓板載 LED 閃爍。',
+            'arduinoRaspberryPiPico2W.examples.button.name': '按鍵',
+            'arduinoRaspberryPiPico2W.examples.button.description': '按住按鍵時點亮 LED。',
+            'arduinoRaspberryPiPico2W.examples.fade.name': '呼吸燈',
+            'arduinoRaspberryPiPico2W.examples.fade.description': '用 PWM 讓 LED 緩緩變亮再漸漸變暗。',
+            'arduinoRaspberryPiPico2W.examples.knob.name': '電位器調光',
+            'arduinoRaspberryPiPico2W.examples.knob.description': '用電位器調節 LED 的亮度。',
+            'arduinoRaspberryPiPico2W.examples.servoSweep.name': '舵機來回掃描',
+            'arduinoRaspberryPiPico2W.examples.servoSweep.description': '讓舵機在 0° 到 180° 之間來回轉動。',
+            'arduinoRaspberryPiPico2W.examples.serialMonitor.name': '串口監視器',
+            'arduinoRaspberryPiPico2W.examples.serialMonitor.description': '每半秒把類比引腳的數值印出到串口監視器上。'
         }
     },
     'extensions': {
@@ -44,7 +108,7 @@ export default {
             'arduinoRaspberryPiPico2W.pins.attachInterrupt': 'attach interrupt pin [PIN] mode [MODE] executes',
             'arduinoRaspberryPiPico2W.pins.detachInterrupt': 'detach interrupt pin [PIN]',
             'arduinoRaspberryPiPico2W.category.serial': 'Serial',
-            'arduinoRaspberryPiPico2W.serial.raspberryPiPicoMultiSerialBegin': 'serial [NO] begin baudrate [VALUE]',
+            'arduinoRaspberryPiPico2W.serial.multiSerialBegin': 'serial [NO] begin baudrate [VALUE]',
             'arduinoRaspberryPiPico2W.serial.multiSerialPrint': 'serial [NO] print [VALUE] [EOL]',
             'arduinoRaspberryPiPico2W.serial.multiSerialAvailable': 'serial [NO] available data length',
             'arduinoRaspberryPiPico2W.serial.multiSerialReadAByte': 'serial [NO] read a byte',
@@ -82,7 +146,7 @@ export default {
             'arduinoRaspberryPiPico2W.pins.attachInterrupt': 'подключить прерывания на [PIN] в режиме [MODE] и выполнить',
             'arduinoRaspberryPiPico2W.pins.detachInterrupt': 'отсоединить контакт прерывания [PIN]',
             'arduinoRaspberryPiPico2W.category.serial': 'Серийный',
-            'arduinoRaspberryPiPico2W.serial.raspberryPiPicoMultiSerialBegin': 'Последовательного порта [NO] начать со скоростью передачи данных [VALUE]',
+            'arduinoRaspberryPiPico2W.serial.multiSerialBegin': 'Последовательного порта [NO] начать со скоростью передачи данных [VALUE]',
             'arduinoRaspberryPiPico2W.serial.multiSerialPrint': 'серийный номер [NO] печать [VALUE] [EOL]',
             'arduinoRaspberryPiPico2W.serial.multiSerialAvailable': 'серийный [NO] доступная длина данных',
             'arduinoRaspberryPiPico2W.serial.multiSerialReadAByte': 'серийный номер [NO] прочитать байт',
@@ -120,7 +184,7 @@ export default {
             'arduinoRaspberryPiPico2W.pins.attachInterrupt': '设置中断引脚 [PIN] 模式 [MODE] 执行',
             'arduinoRaspberryPiPico2W.pins.detachInterrupt': '取消中断引脚 [PIN]',
             'arduinoRaspberryPiPico2W.category.serial': '串口',
-            'arduinoRaspberryPiPico2W.serial.raspberryPiPicoMultiSerialBegin': '串口 [NO] 启动波特率 [VALUE]',
+            'arduinoRaspberryPiPico2W.serial.multiSerialBegin': '串口 [NO] 启动波特率 [VALUE]',
             'arduinoRaspberryPiPico2W.serial.multiSerialPrint': '串口 [NO] 打印 [VALUE] [EOL]',
             'arduinoRaspberryPiPico2W.serial.multiSerialAvailable': '串口 [NO] 可读取字节数',
             'arduinoRaspberryPiPico2W.serial.multiSerialReadAByte': '串口 [NO] 读取1个字节',
@@ -158,7 +222,7 @@ export default {
             'arduinoRaspberryPiPico2W.pins.attachInterrupt': '設置中斷腳位 [PIN] 模式 [MODE] 執行',
             'arduinoRaspberryPiPico2W.pins.detachInterrupt': '取消中斷腳位 [PIN]',
             'arduinoRaspberryPiPico2W.category.serial': '串口',
-            'arduinoRaspberryPiPico2W.serial.raspberryPiPicoMultiSerialBegin': '串口 [NO] 啟動波特率 [VALUE]',
+            'arduinoRaspberryPiPico2W.serial.multiSerialBegin': '串口 [NO] 啟動波特率 [VALUE]',
             'arduinoRaspberryPiPico2W.serial.multiSerialPrint': '串口 [NO] 列印 [VALUE] [EOL]',
             'arduinoRaspberryPiPico2W.serial.multiSerialAvailable': '串口 [NO] 可讀取字節數',
             'arduinoRaspberryPiPico2W.serial.multiSerialReadAByte': '串口 [NO] 讀取1個字節',
